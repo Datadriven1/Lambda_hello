@@ -1,0 +1,13 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+functions:
+- github:
+    branch: master
+    deploy_on_push: true
+    repo: digitalocean/Datadriven1/Price_predication_ePharma
+  name: hello-api
+  routes:
+  - path: /
+  source_dir: /
+name: hello
