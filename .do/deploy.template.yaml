@@ -6,8 +6,8 @@ functions:
     branch: master
     deploy_on_push: true
     repo: Datadriven1/Price_predication_ePharma
-  name: sample-api
+  name: bhupendra-api
   routes:
   - path: /
   source_dir: /
-name: sample/hello
+name: bhupendra
