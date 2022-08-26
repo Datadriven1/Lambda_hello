@@ -6,7 +6,7 @@ functions:
     branch: master
     deploy_on_push: true
     repo: Datadriven1/Price_predication_ePharma
-  name: hello-api
+  name: sample-api
   routes:
   - path: /
   source_dir: /
