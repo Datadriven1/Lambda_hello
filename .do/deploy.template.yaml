@@ -5,7 +5,7 @@ functions:
 - github:
     branch: master
     deploy_on_push: true
-    repo: digitalocean/Datadriven1/Price_predication_ePharma
+    repo: Datadriven1/Price_predication_ePharma
   name: hello-api
   routes:
   - path: /
